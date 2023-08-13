@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>table rough</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 0px;
+            border-collapse: collapse;
+        }
+        th:nth-child(even){
+            background-color: lightpink;
+
+        }
+        table{
+            width: 50%;
+        }
+        tr:hover{ 
+             color: rgb(10, 27, 216);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption><strong><h3>students details</h3></strong> </caption>
+        <!-- <colgroup> -->
+        <!-- <col span="1" style="background-color: bisque;"></colgroup> -->
+        <tr>
+            <th>Name</th>
+            <th>Roll.No</th>
+            <th>Mark</th>
+        </tr>
+        <tr>
+        <td>farisha</td>
+        <td>1</td>
+        <td  rowspan="2">50</td>
+        </tr>
+        <tr>
+            <td>jahana</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>jumana</td>
+            <td>3</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>noor vahida</td>
+            <td>4</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>ramshi</td>
+            <td>5</td>
+            <td>20</td>
+        </tr>
+    </table>
+</body>
+</html>

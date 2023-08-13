@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      h1{
+        position: absolute;
+        top: 30%;
+        left: 20%;
+      }
+      h2{
+        position: absolute;
+        top: 30%;
+        left: -20%;
+      }
+      .line{
+        position: relative;
+      }
+    .line::before,
+    .line::after{
+            content: "";
+            position: absolute;
+            width: 20%;
+            height: 1px;
+            background-color: black;
+        }
+        .line::before {
+            position: absolute;
+            top: 70%;
+            left: 20%;
+        }
+
+        .line::after {
+            position: absolute;
+            left:20% ;
+            bottom: 80%;
+        }
+        .word {
+            display: inline-block;
+            position: relative;
+            padding: 0 10px;
+            font-size: 24px;
+        }
+        
+          .center {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+        
+        .line1{
+        position: relative;
+      }
+    .line1::before,
+    .line1::after{
+            content: "";
+            position: absolute;
+            width: 20%;
+            height: 1px;
+            background-color: black;
+        }
+        .line1::before {
+            position: absolute;
+            top: -145%;
+            left: 65%;
+        }
+
+        .line1::after {
+            position: absolute;
+            left:65%;
+            bottom: 155%;
+        }
+        .word1 {
+            display: inline-block;
+            position: relative;
+            padding: 0 10px;
+            font-size: 24px;
+           
+        }
+        span{
+          position: absolute;
+          left: 25%;
+        transform: translateY(-200%);
+        }
+footer{
+  position: absolute;
+  top: 102%;
+ left:40%
+}  
+strong{
+  position: absolute;
+  left: 30%;
+}    
+    </style>
+</head>
+<body><center>
+    <div>
+   <img src="invitation.jpg" alt="image" width=1120px" height="720px">
+  <h1 style="font-family: 'Abril Fatface', cursive;"><b> YOU ARE INVITED TO THE WEDDING OF<br><br></b>
+    <b style="color:goldenrod;"> THOMAS JOHN<br>
+    &<br>
+    MARY ALEXANDER<br><br></b>
+   <CENTER style="font-size: large;"> AUGUST</CENTER>
+   <div class="line">
+   <h2 class="word">sunday</h2>
+   </div>
+ <center class="center">18<br>2023</center>
+ <div class="line1"> 
+   <span class="word1"> at 6pm</span>
+ </div>
+  
+   </h1>
+  </div>
+   </center>
+   <footer style="font-family: 'Mr Dafoe', cursive;"><b>
+    778 LOCUST VIEW DRIVE<br></b>
+    <strong>OAKLAND,CA</strong>
+   </footer>
+ 
+</body>
+
+</html>
